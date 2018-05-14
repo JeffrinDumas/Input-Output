@@ -1,8 +1,8 @@
 # Speciale Input - Output
 Team #
-1. <Teamlid1>
-2. <Teamlid2>
-3. <Teamlid3>
+1. Boyd Smit
+2. Ruben Steenbrink
+3. Jeffrin Dumas
 
 ## Ontwerp
 Beschrijf hier kort jullie project
