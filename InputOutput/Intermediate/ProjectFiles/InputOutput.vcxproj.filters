@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\InputOutput.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D3816E85-4A3D-4F3F-B7C0-F26196C37D26}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\InputOutput.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\InputOutputEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{A8D0252A-EDED-4C41-9FE3-6A17D6F93878}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\InputOutput">
+			<UniqueIdentifier>{9BFAE30E-0710-47F3-BB75-2A8B10EE0ED5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\InputOutput\InputOutput.Build.cs">
+			<Filter>Source\InputOutput</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\InputOutput\InputOutput.cpp">
+			<Filter>Source\InputOutput</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\InputOutput\InputOutput.h">
+			<Filter>Source\InputOutput</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\InputOutput\InputOutputGameModeBase.cpp">
+			<Filter>Source\InputOutput</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\InputOutput\InputOutputGameModeBase.h">
+			<Filter>Source\InputOutput</Filter>
+		</ClInclude >
+		<Filter Include="Source\InputOutput\Private">
+			<UniqueIdentifier>{850745B9-7256-40B4-BCAB-BE2E3C4BB189}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\InputOutput\Private\Spawner.cpp">
+			<Filter>Source\InputOutput\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\InputOutput\Public">
+			<UniqueIdentifier>{BB492AEB-E820-4537-BAB1-609C4E809BFC}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\InputOutput\Public\Spawner.h">
+			<Filter>Source\InputOutput\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
