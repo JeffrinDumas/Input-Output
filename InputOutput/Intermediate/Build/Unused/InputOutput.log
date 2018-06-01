@@ -1,0 +1,11 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading InputOutputEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
+  UserInput.cpp
+  [2/3] Link UE4Editor-InputOutput-1462.dll
+  [3/3] Link UE4Editor-InputOutput-1462.lib
+     Creating library D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-1462.lib and object D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-1462.exp
+     Creating library D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-1462.suppressed.lib and object D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-1462.suppressed.exp
+  Deploying InputOutputEditor Win64 Development...
+  Total build time: 411.35 seconds (Local executor: 143.78 seconds)

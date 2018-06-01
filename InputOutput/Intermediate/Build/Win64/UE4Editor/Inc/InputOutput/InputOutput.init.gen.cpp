@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeInputOutput_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/InputOutput",
 				PKG_CompiledIn | 0x00000000,
-				0x59138A4B,
-				0x8DD77051,
+				0x9C06FB48,
+				0x808EBC6E,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

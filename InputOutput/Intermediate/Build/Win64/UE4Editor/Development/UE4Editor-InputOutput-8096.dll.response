@@ -1,0 +1,74 @@
+/MANIFEST:NO
+/NOLOGO
+/DEBUG
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:5000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\InputOutput.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\InputOutputGameModeBase.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\Bullet.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\playerInputScript.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\Spawner.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\UserInput.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\Bullet.gen.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\InputOutput.init.gen.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\InputOutputGameModeBase.gen.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\playerInputScript.gen.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\UserInput.gen.cpp.obj"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\PCLaunch.rc.res"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Engine.lib"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
+/OUT:"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Binaries\Win64\UE4Editor-InputOutput-8096.dll"
+/IMPLIB:"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-8096.suppressed.lib"
+/PDB:"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Binaries\Win64\UE4Editor-InputOutput-8096.pdb"
+/ignore:4078

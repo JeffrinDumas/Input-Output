@@ -1,0 +1,3 @@
+D:\bewijzenmap\P2.4\IDP\InputOutput\Game\InputOutput\Source\InputOutput\InputOutput.Build.cs
+D:\bewijzenmap\P2.4\IDP\InputOutput\Game\InputOutput\Source\InputOutput.Target.cs
+D:\bewijzenmap\P2.4\IDP\InputOutput\Game\InputOutput\Source\InputOutputEditor.Target.cs

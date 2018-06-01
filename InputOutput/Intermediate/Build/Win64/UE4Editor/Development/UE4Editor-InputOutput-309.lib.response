@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-InputOutput-309.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\InputOutput.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\InputOutputGameModeBase.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\Bullet.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\playerInputScript.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\Spawner.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\UserInput.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\Bullet.gen.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\InputOutput.init.gen.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\InputOutputGameModeBase.gen.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\playerInputScript.gen.cpp.obj"
+"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\UserInput.gen.cpp.obj"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputOutput\PCLaunch.rc.res"
+"D:\EpicGames games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-309.lib"

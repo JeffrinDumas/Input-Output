@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\InputOutput.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{459AA34E-7A7C-4D1E-807E-B93248B055E8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\InputOutput.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\InputOutputEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8A5FCE04-2A9B-40A6-B075-DE3748DA0140}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\InputOutput">
+      <UniqueIdentifier>{91D212B5-0593-49CF-A429-FD3368CBF7F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\InputOutput\InputOutput.Build.cs">
+      <Filter>Source\InputOutput</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\InputOutput\InputOutput.cpp">
+      <Filter>Source\InputOutput</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InputOutput\InputOutput.h">
+      <Filter>Source\InputOutput</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InputOutput\InputOutputGameModeBase.cpp">
+      <Filter>Source\InputOutput</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InputOutput\InputOutputGameModeBase.h">
+      <Filter>Source\InputOutput</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\InputOutput\Bullet.h">
+      <Filter>Source\InputOutput</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\InputOutput\Bullet.cpp">
+      <Filter>Source\InputOutput</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
