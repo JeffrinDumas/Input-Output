@@ -496,3 +496,193 @@ LogInit: Object subsystem initialized
 [2018.06.01-07.23.05:126][504]LogEditorViewport: Clicking Background
 [2018.06.01-07.23.06:364][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.06.01-07.25.37:441][922]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-07.32.36:954][380]LogEditorViewport: Clicking on Actor (context menu): UserInput (UserInput1)
+[2018.06.01-07.32.54:898][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-07.32.54:974][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-07.32.55:027][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-07.54.02:283][440]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-07.54.02:525][447]Candidate modules for hot reload:
+[2018.06.01-07.54.02:525][447]  InputOutput
+[2018.06.01-07.54.02:525][447]Launching UnrealBuildTool... [D:/EpicGames games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe InputOutput -ModuleWithSuffix=InputOutput,7338 Win64 Development -editorrecompile -canskiplink "D:/bewijzenmap/P2.4/IDP/InputOutput/InputOutput/InputOutput.uproject" ]
+[2018.06.01-07.54.02:856][447]Warning: Starting HotReload took  0.5s.
+[2018.06.01-07.54.42:066][898]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-07.55.14:732][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-07.56.22:347][276]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-07.56.29:053][382]CompilerResultsLog: New page: Compilation - Jun 1, 2018, 11:56:29 AM
+[2018.06.01-07.56.29:053][382]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.01-07.56.29:053][382]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.01-07.56.29:054][382]CompilerResultsLog: Parsing headers for InputOutputEditor
+[2018.06.01-07.56.29:054][382]CompilerResultsLog:   Running UnrealHeaderTool "D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\InputOutput.uproject" "D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\InputOutputEditor\Development\InputOutputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.06.01-07.56.29:055][382]CompilerResultsLog: Reflection code generated for InputOutputEditor in 20.1986643 seconds
+[2018.06.01-07.56.29:056][382]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.06.01-07.56.29:056][382]CompilerResultsLog: UserInput.gen.cpp
+[2018.06.01-07.56.29:057][382]CompilerResultsLog: UserInput.cpp
+[2018.06.01-07.56.29:057][382]CompilerResultsLog: Error: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Source\InputOutput\Public\UserInput.h(32) : error C2535: 'void AUserInput::SetupPlayerInputComponent(UInputComponent *)': member function already defined or declared
+[2018.06.01-07.56.29:073][382]CompilerResultsLog: Error: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Source\InputOutput\Public\UserInput.h(22) : note: see declaration of 'AUserInput::SetupPlayerInputComponent'
+[2018.06.01-07.56.29:074][382]CompilerResultsLog: Error: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Source\InputOutput\Public/UserInput.h(32) : error C2535: 'void AUserInput::SetupPlayerInputComponent(UInputComponent *)': member function already defined or declared
+[2018.06.01-07.56.29:074][382]CompilerResultsLog: Error: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Source\InputOutput\Public/UserInput.h(22) : note: see declaration of 'AUserInput::SetupPlayerInputComponent'
+[2018.06.01-07.56.29:075][382]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Binaries\Win64\UE4Editor-InputOutput-7338.dll
+[2018.06.01-07.56.29:075][382]CompilerResultsLog: Total build time: 145.02 seconds (Local executor: 0.00 seconds)
+[2018.06.01-07.56.29:076][382]LogMainFrame: MainFrame: Module compiling took 146.555 seconds
+[2018.06.01-07.56.29:076][382]Warning: HotReload failed, recompile failed
+[2018.06.01-07.58.08:336][840]LogEditorViewport: Clicking Background
+[2018.06.01-07.58.08:924][896]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-07.58.12:323][218]Candidate modules for hot reload:
+[2018.06.01-07.58.12:323][218]  InputOutput
+[2018.06.01-07.58.12:323][218]Launching UnrealBuildTool... [D:/EpicGames games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe InputOutput -ModuleWithSuffix=InputOutput,7512 Win64 Development -editorrecompile -canskiplink "D:/bewijzenmap/P2.4/IDP/InputOutput/InputOutput/InputOutput.uproject" ]
+[2018.06.01-07.58.12:546][218]Warning: Starting HotReload took  0.3s.
+[2018.06.01-08.00.11:495][798]CompilerResultsLog: New page: Compilation - Jun 1, 2018, 12:00:11 PM
+[2018.06.01-08.00.11:495][798]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.01-08.00.11:496][798]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.01-08.00.11:496][798]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.06.01-08.00.11:496][798]CompilerResultsLog: UserInput.gen.cpp
+[2018.06.01-08.00.11:496][798]CompilerResultsLog: UserInput.cpp
+[2018.06.01-08.00.11:496][798]CompilerResultsLog: Error: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Source\InputOutput\Public\UserInput.h(32) : error C2535: 'void AUserInput::SetupPlayerInputComponent(UInputComponent *)': member function already defined or declared
+[2018.06.01-08.00.11:496][798]CompilerResultsLog: Error: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Source\InputOutput\Public\UserInput.h(22) : note: see declaration of 'AUserInput::SetupPlayerInputComponent'
+[2018.06.01-08.00.11:497][798]CompilerResultsLog: Error: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Source\InputOutput\Public/UserInput.h(32) : error C2535: 'void AUserInput::SetupPlayerInputComponent(UInputComponent *)': member function already defined or declared
+[2018.06.01-08.00.11:497][798]CompilerResultsLog: Error: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Source\InputOutput\Public/UserInput.h(22) : note: see declaration of 'AUserInput::SetupPlayerInputComponent'
+[2018.06.01-08.00.11:497][798]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Binaries\Win64\UE4Editor-InputOutput-7512.dll
+[2018.06.01-08.00.11:498][798]CompilerResultsLog: Total build time: 117.75 seconds (Local executor: 0.00 seconds)
+[2018.06.01-08.00.11:498][798]LogMainFrame: MainFrame: Module compiling took 119.183 seconds
+[2018.06.01-08.00.11:498][798]Warning: HotReload failed, recompile failed
+[2018.06.01-08.00.14:817][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.03.09:290][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.03.09:396][797]Candidate modules for hot reload:
+[2018.06.01-08.03.09:396][797]  InputOutput
+[2018.06.01-08.03.09:422][797]Launching UnrealBuildTool... [D:/EpicGames games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe InputOutput -ModuleWithSuffix=InputOutput,1261 Win64 Development -editorrecompile -canskiplink "D:/bewijzenmap/P2.4/IDP/InputOutput/InputOutput/InputOutput.uproject" ]
+[2018.06.01-08.03.09:479][797]Warning: Starting HotReload took  0.1s.
+[2018.06.01-08.04.25:184][225]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-08.04.27:297][378]LogSlate: Window 'Message Log' being destroyed
+[2018.06.01-08.04.27:304][378]LogSlate: Window 'Message Log' being destroyed
+[2018.06.01-08.04.34:795][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.06.05:145][ 26]CompilerResultsLog: New page: Compilation - Jun 1, 2018, 12:06:05 PM
+[2018.06.01-08.06.05:146][ 26]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2018.06.01-08.06.05:148][ 26]CompilerResultsLog: Compiling game modules for hot reload
+[2018.06.01-08.06.05:149][ 26]CompilerResultsLog: Parsing headers for InputOutputEditor
+[2018.06.01-08.06.05:149][ 26]CompilerResultsLog:   Running UnrealHeaderTool "D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\InputOutput.uproject" "D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\InputOutputEditor\Development\InputOutputEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.06.01-08.06.05:150][ 26]CompilerResultsLog: Reflection code generated for InputOutputEditor in 22.16836 seconds
+[2018.06.01-08.06.05:150][ 26]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.06.01-08.06.05:150][ 26]CompilerResultsLog: UserInput.gen.cpp
+[2018.06.01-08.06.05:151][ 26]CompilerResultsLog: UserInput.cpp
+[2018.06.01-08.06.05:151][ 26]CompilerResultsLog: [3/4] Link UE4Editor-InputOutput-1261.dll
+[2018.06.01-08.06.05:151][ 26]CompilerResultsLog: [4/4] Link UE4Editor-InputOutput-1261.lib
+[2018.06.01-08.06.05:151][ 26]CompilerResultsLog:    Creating library D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-1261.lib and object D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-1261.exp
+[2018.06.01-08.06.05:152][ 26]CompilerResultsLog:    Creating library D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-1261.suppressed.lib and object D:\bewijzenmap\P2.4\IDP\InputOutput\InputOutput\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputOutput-1261.suppressed.exp
+[2018.06.01-08.06.05:153][ 26]CompilerResultsLog: Total build time: 174.62 seconds (Local executor: 135.84 seconds)
+[2018.06.01-08.06.05:153][ 26]LogMainFrame: MainFrame: Module compiling took 175.762 seconds
+[2018.06.01-08.06.05:471][ 26]LogContentBrowser: Native class hierarchy updated for 'InputOutput' in 0.0020 seconds. Added 4 classes and 3 folders.
+[2018.06.01-08.06.05:475][ 26]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.06.01-08.06.05:869][ 26]LogContentBrowser: Native class hierarchy populated in 0.0231 seconds. Added 2457 classes and 563 folders.
+[2018.06.01-08.06.05:884][ 26]Display: HotReload took 176.5s.
+[2018.06.01-08.06.09:741][374]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.06.09:846][384]LogTemp: Repeating last play command: Simulate
+[2018.06.01-08.06.09:889][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.01-08.06.09:890][384]PIE: New page: SIE session: WorldBoyd (Jun 1, 2018, 12:06:09 PM)
+[2018.06.01-08.06.09:890][384]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_WorldBoyd
+[2018.06.01-08.06.10:248][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.274532s)
+[2018.06.01-08.06.10:250][384]LogAIModule: Creating AISystem for world WorldBoyd
+[2018.06.01-08.06.10:251][384]LogPlayLevel: PIE: World Init took: (0.002656s)
+[2018.06.01-08.06.10:251][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/WorldBoyd.WorldBoyd to /Game/Scene/UEDPIE_0_WorldBoyd.WorldBoyd (0.361151s)
+[2018.06.01-08.06.10:354][384]LogInit: XAudio2 using 'Luidsprekers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.01-08.06.10:531][384]LogInit: FAudioDevice initialized.
+[2018.06.01-08.06.10:607][384]LogLoad: Game class is 'GameModeBase'
+[2018.06.01-08.06.10:609][384]LogWorld: Bringing World /Game/Scene/UEDPIE_0_WorldBoyd.WorldBoyd up for play (max tick rate 0) at 2018.06.01-10.06.10
+[2018.06.01-08.06.10:610][384]LogWorld: Bringing up level for play took: 0.001856
+[2018.06.01-08.06.10:632][384]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.06.01-08.06.10:633][384]PIE: Play in editor start time for /Game/Scene/UEDPIE_0_WorldBoyd 0.623
+[2018.06.01-08.06.22:674][613]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-08.08.34:302][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-08.08.35:701][286]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-08.09.12:755][286]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.InputOutput
+[2018.06.01-08.09.12:755][286]LogTemp: CWD: D:\EpicGames games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.01-08.09.12:755][286]LogTemp: Initial Dir: D:\EpicGames games\UE_4.19
+[2018.06.01-08.09.12:755][286]LogTemp: Env CWD: D:\EpicGames games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.06.01-08.09.12:756][286]LogTemp: BranchPath = LAPTOP-00QRHNHM/D/EpicGames games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-00QRHNHM/D/EpicGames games/UE_4.19/Engine/Binaries
+[2018.06.01-08.09.12:757][286]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Boyd smit\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.06.01-08.09.12:757][286]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.06.01-08.10.16:461][121]LogSlate: Window 'Project Settings' being destroyed
+[2018.06.01-08.10.16:468][121]LogSlate: Window 'Project Settings' being destroyed
+[2018.06.01-08.10.50:049][864]LogEditorViewport: Clicking on Actor (LMB): UserInput (UserInput1)
+[2018.06.01-08.10.51:191][865]LogEditorViewport: Clicking on Actor (LMB): UserInput (UserInput1)
+[2018.06.01-08.10.52:069][938]LogEditorViewport: Clicking Background
+[2018.06.01-08.10.53:134][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.10.57:808][187]LogEditor: Attempting to add actor of class 'UserInput' to level at -310.00,1010.00,-50.00
+[2018.06.01-08.10.57:868][187]LogActor: Warning: UserInput /Game/Scene/WorldBoyd.WorldBoyd:PersistentLevel.UserInput_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.01-08.10.59:547][329]LogEditor: Attempting to add actor of class 'UserInput' to level at -310.00,1010.00,-50.00
+[2018.06.01-08.10.59:579][329]LogActor: Warning: UserInput /Game/Scene/WorldBoyd.WorldBoyd:PersistentLevel.UserInput_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2018.06.01-08.11.01:965][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.11.06:692][822]LogActorFactory: Actor Factory created Cube
+[2018.06.01-08.11.13:047][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.11.20:166][437]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.22:552][638]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-08.11.23:574][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.01-08.11.23:574][735]PIE: New page: SIE session: WorldBoyd (Jun 1, 2018, 12:11:23 PM)
+[2018.06.01-08.11.23:574][735]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_WorldBoyd
+[2018.06.01-08.11.23:775][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.200685s)
+[2018.06.01-08.11.23:776][735]LogAIModule: Creating AISystem for world WorldBoyd
+[2018.06.01-08.11.23:787][735]LogPlayLevel: PIE: World Init took: (0.011328s)
+[2018.06.01-08.11.23:787][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/WorldBoyd.WorldBoyd to /Game/Scene/UEDPIE_0_WorldBoyd.WorldBoyd (0.212642s)
+[2018.06.01-08.11.23:805][735]LogInit: XAudio2 using 'Luidsprekers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.01-08.11.23:970][735]LogInit: FAudioDevice initialized.
+[2018.06.01-08.11.23:970][735]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-08.11.24:285][735]LogLoad: Game class is 'GameModeBase'
+[2018.06.01-08.11.24:286][735]LogWorld: Bringing World /Game/Scene/UEDPIE_0_WorldBoyd.WorldBoyd up for play (max tick rate 0) at 2018.06.01-10.11.24
+[2018.06.01-08.11.24:300][735]LogWorld: Bringing up level for play took: 0.014020
+[2018.06.01-08.11.24:372][735]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.06.01-08.11.24:373][735]PIE: Play in editor start time for /Game/Scene/UEDPIE_0_WorldBoyd 0.362
+[2018.06.01-08.11.25:053][781]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.25:437][809]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.25:596][819]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.25:687][825]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.25:892][839]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.26:601][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.11.26:980][921]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.27:087][928]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.27:271][941]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.27:650][965]LogEditorViewport: Clicking Background
+[2018.06.01-08.11.28:639][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.11.38:458][ 48]Cmd: SELECT NONE
+[2018.06.01-08.11.54:457][462]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.01-08.12.28:465][138]LogEditorViewport: Clicking Background
+[2018.06.01-08.12.29:940][299]LogEditorViewport: Clicking on Actor (LMB): UserInput (UserInput2)
+[2018.06.01-08.12.30:889][391]Cmd: DELETE
+[2018.06.01-08.12.30:889][391]Cmd: ACTOR DELETE
+[2018.06.01-08.12.31:894][391]LogEditorActor: Deleted Actor: UserInput
+[2018.06.01-08.12.31:956][391]LogEditorActor: Deleted 1 Actors (0.924 secs)
+[2018.06.01-08.12.33:152][515]LogEditorViewport: Clicking on Actor (LMB): UserInput (UserInput1)
+[2018.06.01-08.12.36:001][744]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.13.03:640][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.01-08.13.03:641][488]PIE: New page: SIE session: WorldBoyd (Jun 1, 2018, 12:13:03 PM)
+[2018.06.01-08.13.03:641][488]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_WorldBoyd
+[2018.06.01-08.13.03:642][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000956s)
+[2018.06.01-08.13.03:643][488]LogAIModule: Creating AISystem for world WorldBoyd
+[2018.06.01-08.13.03:643][488]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2018.06.01-08.13.03:644][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/WorldBoyd.WorldBoyd to /Game/Scene/UEDPIE_0_WorldBoyd.WorldBoyd (0.002560s)
+[2018.06.01-08.13.03:739][488]LogInit: XAudio2 using 'Luidsprekers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.01-08.13.03:873][488]LogInit: FAudioDevice initialized.
+[2018.06.01-08.13.04:334][488]LogLoad: Game class is 'GameModeBase'
+[2018.06.01-08.13.04:335][488]LogWorld: Bringing World /Game/Scene/UEDPIE_0_WorldBoyd.WorldBoyd up for play (max tick rate 0) at 2018.06.01-10.13.04
+[2018.06.01-08.13.04:382][488]LogWorld: Bringing up level for play took: 0.047567
+[2018.06.01-08.13.04:447][488]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.06.01-08.13.04:449][488]PIE: Play in editor start time for /Game/Scene/UEDPIE_0_WorldBoyd 0.438
+[2018.06.01-08.13.06:333][564]LogEditorViewport: Clicking Background
+[2018.06.01-08.13.06:930][616]LogEditorViewport: Clicking Background
+[2018.06.01-08.13.06:942][616]LogEditorViewport: Clicking Background
+[2018.06.01-08.13.07:180][637]LogEditorViewport: Clicking Background
+[2018.06.01-08.13.07:996][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.13.13:456][264]LogEditorViewport: Clicking on Actor (LMB): UserInput (UserInput1)
+[2018.06.01-08.13.16:789][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.01-08.13.36:335][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.01-08.13.36:335][275]PIE: New page: SIE session: WorldBoyd (Jun 1, 2018, 12:13:36 PM)
+[2018.06.01-08.13.36:335][275]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_WorldBoyd
+[2018.06.01-08.13.36:440][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105200s)
+[2018.06.01-08.13.36:441][275]LogAIModule: Creating AISystem for world WorldBoyd
+[2018.06.01-08.13.36:442][275]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2018.06.01-08.13.36:442][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/WorldBoyd.WorldBoyd to /Game/Scene/UEDPIE_0_WorldBoyd.WorldBoyd (0.106973s)
+[2018.06.01-08.13.36:496][275]LogInit: XAudio2 using 'Luidsprekers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.01-08.13.36:531][275]LogInit: FAudioDevice initialized.
+[2018.06.01-08.13.36:633][275]LogLoad: Game class is 'GameModeBase'
+[2018.06.01-08.13.36:634][275]LogWorld: Bringing World /Game/Scene/UEDPIE_0_WorldBoyd.WorldBoyd up for play (max tick rate 0) at 2018.06.01-10.13.36
+[2018.06.01-08.13.36:649][275]LogWorld: Bringing up level for play took: 0.014676
+[2018.06.01-08.13.36:649][275]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.06.01-08.13.36:654][275]PIE: Play in editor start time for /Game/Scene/UEDPIE_0_WorldBoyd 0.643
