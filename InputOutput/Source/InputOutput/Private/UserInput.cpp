@@ -4,7 +4,7 @@
 #include "GameFramework/Pawn.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/FloatingPawnMovement.h"
-
+#include "Runtime/Engine/Classes/Engine/World.h"
 
 // Sets default values
 AUserInput::AUserInput()
@@ -36,7 +36,7 @@ void AUserInput::SetupPlayerInputComponent(class UInputComponent* PlayerInputCom
 
 	check(PlayerInputComponent);
 
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	Super::SetupPlayerInputComponent(PlayerInputComponent);	
 
 	PlayerInputComponent->BindAction("onClick", IE_Pressed, this, &AUserInput::Shoot);
 }
@@ -44,7 +44,17 @@ void AUserInput::SetupPlayerInputComponent(class UInputComponent* PlayerInputCom
 void AUserInput::Shoot()
 {
 	UE_LOG(LogTemp, Warning, TEXT("pew"));
-	FVector NewLocation = GetActorLocation();
-	NewLocation.Y += 10.f;
-	SetActorLocation(NewLocation);
+
+	UWorld* const  World = GetWorld();
+	if (World != NULL)
+	{
+		const FRotator SpawnRotation = GetControlRotation();
+		const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+
+		FActorSpawnParameters ActorSpawnParams;
+		ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+		World->SpawnActor<AMyProjectProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+	}	
+
 }
