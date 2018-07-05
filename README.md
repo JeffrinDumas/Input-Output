@@ -10,7 +10,7 @@ De game worde een rythm shooting game waarmee je op de maat de op je afkomende n
 ## Portfolio
 Zet hier de links neer naar jullie documentatie.
 
-* [Onderzoek]()
+* [Onderzoek]( https://github.com/JeffrinDumas/Input-Output/blob/master/Portfolio/P01%20-%20Onderzoek.docx)
 * [Ontwerp]()
 * [Testrapportage]()
 * [Presentatie]()
